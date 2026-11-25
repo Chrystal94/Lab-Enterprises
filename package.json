@@ -1,0 +1,13 @@
+{
+  "name": "lab-enterprises",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LAB Enterprises static website and application API",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check assets/js/lab-enterprises.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

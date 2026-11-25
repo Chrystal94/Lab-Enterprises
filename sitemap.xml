@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://lab-enterprises.example/</loc></url>
+  <url><loc>https://lab-enterprises.example/about.html</loc></url>
+  <url><loc>https://lab-enterprises.example/services.html</loc></url>
+  <url><loc>https://lab-enterprises.example/events.html</loc></url>
+  <url><loc>https://lab-enterprises.example/enterprises.html</loc></url>
+  <url><loc>https://lab-enterprises.example/lets-talk.html</loc></url>
+  <url><loc>https://lab-enterprises.example/contact.html</loc></url>
+  <url><loc>https://lab-enterprises.example/portals.html</loc></url>
+  <url><loc>https://lab-enterprises.example/membership-portal.html</loc></url>
+  <url><loc>https://lab-enterprises.example/employment-portal.html</loc></url>
+  <url><loc>https://lab-enterprises.example/admin-portal.html</loc></url>
+</urlset>
