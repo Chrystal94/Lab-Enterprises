@@ -6,8 +6,13 @@ const crypto = require('crypto');
 const port = Number(process.env.PORT || 3000);
 const root = __dirname;
 const dataFile = path.resolve(process.env.LAB_DATA_FILE || path.join(root, 'data/site-data.json'));
-const adminEmail = process.env.ADMIN_EMAIL || 'abdulsalamlukman755@gmail.com';
-const adminPassword = process.env.ADMIN_PASSWORD || 'change-me-now';
+const adminEmail = process.env.ADMIN_EMAIL || 'abdulsalamlukman644@outlook.com';
+const adminPassword = process.env.ADMIN_PASSWORD;
+
+if (!adminPassword || adminPassword.length < 16) {
+  console.error('Set ADMIN_PASSWORD to a unique secret of at least 16 characters before starting the server.');
+  process.exit(1);
+}
 
 function readData() {
   fs.mkdirSync(path.dirname(dataFile), { recursive: true });

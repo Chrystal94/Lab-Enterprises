@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: lab-enterprises
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: ADMIN_EMAIL
+        value: abdulsalamlukman644@outlook.com
+      - key: ADMIN_PASSWORD
+        sync: false
